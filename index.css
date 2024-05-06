@@ -68,8 +68,9 @@ nav{
 }
 
 .header-title:hover{
+    text-shadow: 4px 4px 4px black;
     cursor: pointer;
-    text-decoration: underline;
+  
 }
 
 .content-text{
@@ -83,6 +84,7 @@ nav{
 }
 
 .title{
+    text-shadow: 2px 2px 2px black;
     flex: 1 2;
     font-size: 64px
 }
@@ -109,124 +111,77 @@ box-shadow: 4px 6px black;
     border: 3px;
 }
 
-
-
-@media (max-width: 1300px) {
-    .content-text{
-        margin-top: 10vh;
-        margin-left: 15vh;
-        color:  rgba(255, 189, 3, 1);
-        font-family: "Inter";
-        display: flex;
-        flex-direction: column;
-        gap: 30px;
-    }
-    
-    .title{
-        flex: 1 2;
-        font-size: 64px
-    }
-    
-    .info-text{
-        font-size: 30px;
-        font-family: "Inter";
-    }
-    
-    .big-button{
-    background: rgba(255, 189, 3, 1);
-    color: black;
-    font-weight: bold;
-    font-family: "Inter";
-    width: 423px;
-    height: 81px;
-    font-size: 35px;
-    box-shadow: 4px 6px black;
-    }
-    
-    .big-button:hover{
-        cursor:pointer;
-        box-shadow: 6px 8px black;
-        border: 3px;
+@media (max-width: 1280px) {
+    .content-text {
+        margin-left: 5vh; 
+        margin-right: 5vh; 
     }
 }
 
 
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .content-text {
+        margin-top: 8vh; 
+        margin-left: 8vh;
+        margin-right: 8vh; 
+    }
+}
 
-@media (max-height: 600px){
-    .content-text{
-        margin-top: 7vh;
-        margin-left: 15vh;
-        color:  rgba(255, 189, 3, 1);
+@media (max-width: 1024px) {
+    .content-text { 
+        color: rgba(255, 189, 3, 1);
+        margin-left: 4vw;
         font-family: "Inter";
         display: flex;
         flex-direction: column;
-        gap: 30px;
+        gap: 40px;
+        margin-top: 8vh;
+        margin-left: 16vh; 
+        margin-right: 4vh; 
     }
     
-    .title{
-        flex: 1 2;
-        font-size: 64px
+    .title {
+        flex: 1 1 auto; 
+        font-size: 6vw;
     }
     
-    .info-text{
-        font-size: 30px;
+    .info-text {
+        font-size: 3vh;  
         font-family: "Inter";
+        
     }
     
-    .big-button{
-    background: rgba(255, 189, 3, 1);
-    color: black;
-    font-weight: bold;
-    font-family: "Inter";
-    width: 223px;
-    height: 41px;
-    font-size: 18px;
-    box-shadow: 2px 3px black;
-    }
-    
-    .big-button:hover{
-        cursor:pointer;
-        box-shadow: 3px 4px black;
-        border: 2px;
-    }
-
-
-    .buttons{
-        display: flex;
-        flex: 1 1;
-        align-items: center;
-        justify-content: end;
-        gap: 20px;
-        margin-right: 4vh;
-    }
-    
-    .button{
-        background-color: rgba(255, 189, 3, 1);
-        color: rgba(15, 14, 14, 1);
-        width: 90px;
-        height: 40px;
-        border-radius: 15px;
-        box-shadow: 1px 2px black;
-        border: 1px;
-        font-size: 12px;
+    .big-button {
+        background: rgba(255, 189, 3, 1);
+        color: black;
         font-weight: bold;
         font-family: "Inter";
+        width: 40vw;  
+        height: 8vh; 
+        font-size: 3vw; 
+        box-shadow: 4px 6px black;
+        display: block;  
+        border: 1px solid black
+
     }
     
-    .button:hover{
+    .big-button:hover {
         cursor: pointer;
-        box-shadow: 2px 6px black;
+        box-shadow: 6px 8px black;
         border: 3px solid black;
     }
-    
-    .header-title{
-        font-family: "Changa";
-        margin-left: 5vh;
-        font-size: 40px;
-    }
-    
-    .header-title:hover{
-        cursor: pointer;
-        text-decoration: underline;
+    .buttons{
+        gap: 15px;
+        margin-right: 10px; 
     }
 }
+
+@media (max-width: 768px) {
+    .content-text {
+        flex-direction: column;
+        margin-top: 2vh;
+        margin-left: 2vh; 
+        margin-right: 2vh;
+    }
+}
+
