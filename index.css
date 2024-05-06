@@ -1,0 +1,109 @@
+.changa{
+    font-family: "Changa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+  }
+
+
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+
+body{
+    width: auto;
+    margin: 0px;
+    background: rgba(27, 27, 27, 1);
+}
+
+nav{
+    width: auto;
+    height: 90px;
+    background: rgba(36, 36, 36, 1);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    color: rgba(255, 189, 3, 1);
+    align-items: center;
+    box-shadow: 0px 2px black;
+}
+
+.buttons{
+    display: flex;
+    flex: 1 1;
+    align-items: center;
+    justify-content: end;
+    gap: 47px;
+    margin-right: 4vh;
+}
+
+.button{
+    background-color: rgba(255, 189, 3, 1);
+    color: rgba(15, 14, 14, 1);
+    width: 120px;
+    height: 40px;
+    border-radius: 15px;
+    box-shadow: 1px 4px black;
+    font-weight: bold;
+    font-family: "Inter";
+}
+
+.button:hover{
+    cursor: pointer;
+    box-shadow: 2px 6px black;
+    border: 3px solid black;
+}
+
+.header-title{
+    font-family: "Changa";
+    margin-left: 5vh;
+    font-size: 40px;
+}
+
+.header-title:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.content-text{
+    margin-top: 25vh;
+    margin-left: 35vh;
+    color:  rgba(255, 189, 3, 1);
+    font-family: "Inter";
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.title{
+    flex: 1 2;
+    font-size: 64px
+}
+
+.info-text{
+    font-size: 30px;
+    font-family: "Inter";
+}
+
+.big-button{
+background: rgba(255, 189, 3, 1);
+color: black;
+font-weight: bold;
+font-family: "Inter";
+width: 423px;
+height: 81px;
+font-size: 35px;
+box-shadow: 4px 6px black;
+}
+
+.big-button:hover{
+    cursor:pointer;
+    box-shadow: 6px 8px black;
+    border: 3px;
+}
